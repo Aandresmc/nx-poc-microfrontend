@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/core/error",
+  "sourceRoot": "libs/core/error/src",
+  "prefix": "ws-example",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/core/error"],
+      "options": {
+        "jestConfig": "libs/core/error/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/core/error/src/**/*.ts",
+          "libs/core/error/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

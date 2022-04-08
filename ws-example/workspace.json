@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "projects": {
+    "core-environments": "libs/core/environments",
+    "core-error": "libs/core/error",
+    "core-http": "libs/core/http",
+    "core-interface": "libs/core/interfaces",
+    "data": "libs/data",
+    "mfe1": "apps/mfe1",
+    "mfe1-e2e": "apps/mfe1-e2e",
+    "mfe2": "apps/mfe2",
+    "mfe2-e2e": "apps/mfe2-e2e",
+    "my-app": "apps/my-app",
+    "my-app-e2e": "apps/my-app-e2e",
+    "shell": "apps/shell",
+    "shell-e2e": "apps/shell-e2e",
+    "ui": "libs/ui",
+    "utils": "libs/utils"
+  }
+}

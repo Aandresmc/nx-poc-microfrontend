@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/core/http",
+  "sourceRoot": "libs/core/http/src",
+  "prefix": "ws-example",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/core/http"],
+      "options": {
+        "jestConfig": "libs/core/http/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/core/http/src/**/*.ts",
+          "libs/core/http/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
