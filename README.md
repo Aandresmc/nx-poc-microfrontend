@@ -1,6 +1,8 @@
 
 
-# WsExample
+# nx-poc - Angular (monorepo, lib, microfrontend)
+
+##WsExample
 
 This project was generated using [Nx](https://nx.dev).
 
@@ -9,7 +11,7 @@ This project was generated using [Nx](https://nx.dev).
 🔎 **Smart, Fast and Extensible Build System**
 
 
-## Example create App ionic
+## Example create App ionic with angular and capacitor
 
 npx create-nx-workspace@latest ws-example
 npm install --save-dev --exact @nrwl/angular    
@@ -40,5 +42,48 @@ Below are our core plugins:
   - `npm install --save-dev @nrwl/node`
 
 There are also many [community plugins](https://nx.dev/community) you could add.
+
+## Result App Shell and EntryComponent mfe1
+
+![image](https://user-images.githubusercontent.com/28877837/162368404-fd71f0ba-977b-48e7-affa-09be9b4fb52d.png)
+
+## Result App mfe1 HomeComponent
+
+![image](https://user-images.githubusercontent.com/28877837/162368507-ec788841-8567-4e1a-a7dd-79a331742add.png)
+
+
+## Result App ionic HomeComponent
+
+![image](https://user-images.githubusercontent.com/28877837/162368797-bb91558c-26a8-4416-b6d1-ee0bb59d2d3c.png)
+
+![image](https://user-images.githubusercontent.com/28877837/162368741-eda3b306-2e51-4d78-b86e-f644baef3eaf.png)
+
+
+
+## mfe(s) created
+
+{
+  "mfe1": "http://localhost:5000",
+  "mfe2": "http://localhost:5001"
+}
+
+
+
+
+## settings Angular
+
+Angular CLI: 12.2.1
+Node: 14.17.5
+Package Manager: npm 6.14.14
+
+Angular: 
+... 
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.1202.1 (cli-only)      
+@angular-devkit/core         12.2.1 (cli-only)        
+@angular-devkit/schematics   12.2.1 (cli-only)
+@schematics/angular          12.2.1 (cli-only)
 
 
